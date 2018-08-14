@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.7.3)
+  - CardIO (5.4.4)
+
+DEPENDENCIES:
+  - Alamofire (from `../Alamofire`)
+  - CardIO (from `.`)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :path: "../Alamofire"
+  CardIO:
+    :path: "."
+
+SPEC CHECKSUMS:
+  Alamofire: 49403223420ee20e94e1be5aafeccabf4e815c3b
+  CardIO: 4b01da1dd688697ebfa4bf2d7543270269d9da90
+
+PODFILE CHECKSUM: d6191369e724b5599fedf68161adb18c54f430ae
+
+COCOAPODS: 1.5.3

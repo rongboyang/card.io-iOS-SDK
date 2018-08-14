@@ -15,7 +15,6 @@ FOUNDATION_EXPORT double CardIOVersionNumber;
 FOUNDATION_EXPORT const unsigned char CardIOVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CardIO/PublicHeader.h>
-
 #import "CardIOCreditCardInfo.h"
 #import "CardIODetectionMode.h"
 #import "CardIOView.h"
@@ -23,3 +22,4 @@ FOUNDATION_EXPORT const unsigned char CardIOVersionString[];
 #import "CardIOPaymentViewController.h"
 #import "CardIOPaymentViewControllerDelegate.h"
 #import "CardIOUtilities.h"
+

@@ -7,124 +7,183 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4C7A6D721232CED00EE3191 /* CardIO.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C7A6D521232CED00EE3191 /* CardIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4C7A6E521232D2100EE3191 /* CardIODetectionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C7A6DD21232D2000EE3191 /* CardIODetectionMode.h */; };
-		F4C7A6E621232D2100EE3191 /* CardIOUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C7A6DE21232D2000EE3191 /* CardIOUtilities.h */; };
-		F4C7A6E721232D2100EE3191 /* CardIOPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C7A6DF21232D2000EE3191 /* CardIOPaymentViewController.h */; };
-		F4C7A6E821232D2100EE3191 /* CardIOCreditCardInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C7A6E021232D2000EE3191 /* CardIOCreditCardInfo.h */; };
-		F4C7A6E921232D2100EE3191 /* CardIOViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C7A6E121232D2000EE3191 /* CardIOViewDelegate.h */; };
-		F4C7A6EA21232D2100EE3191 /* CardIOPaymentViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C7A6E221232D2000EE3191 /* CardIOPaymentViewControllerDelegate.h */; };
-		F4C7A6EB21232D2100EE3191 /* CardIO.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C7A6E321232D2100EE3191 /* CardIO.m */; };
-		F4C7A6EC21232D2100EE3191 /* CardIOView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C7A6E421232D2100EE3191 /* CardIOView.h */; };
-		F4C7A6F121232E7D00EE3191 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C7A6EE21232E7D00EE3191 /* libopencv_imgproc.a */; };
-		F4C7A6F221232E7D00EE3191 /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C7A6EF21232E7D00EE3191 /* libCardIO.a */; };
-		F4C7A6F321232E7D00EE3191 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C7A6F021232E7D00EE3191 /* libopencv_core.a */; };
+		4E29E8EA88C7F9661FC8204E /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0A3E32924AD3E020D19A3D /* Pods_Example.framework */; };
+		A725EF3A809C884B725AA9F8 /* Pods_CardIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE522DCB866771838125571C /* Pods_CardIO.framework */; };
+		F4031D5921233D4C0032743B /* CardIO.h in Headers */ = {isa = PBXBuildFile; fileRef = F4031D5721233D4C0032743B /* CardIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4031D6621233DB20032743B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4031D6521233DB20032743B /* AppDelegate.swift */; };
+		F4031D6821233DB20032743B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4031D6721233DB20032743B /* ViewController.swift */; };
+		F4031D6B21233DB20032743B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4031D6921233DB20032743B /* Main.storyboard */; };
+		F4031D6D21233DB30032743B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4031D6C21233DB30032743B /* Assets.xcassets */; };
+		F4031D7021233DB30032743B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4031D6E21233DB30032743B /* LaunchScreen.storyboard */; };
+		F43C3C80212350990024891E /* CardIODetectionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = F43C3C75212350980024891E /* CardIODetectionMode.h */; };
+		F43C3C81212350990024891E /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F43C3C76212350980024891E /* libopencv_imgproc.a */; };
+		F43C3C82212350990024891E /* CardIOUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = F43C3C77212350980024891E /* CardIOUtilities.h */; };
+		F43C3C83212350990024891E /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F43C3C78212350980024891E /* libopencv_core.a */; };
+		F43C3C84212350990024891E /* CardIOPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F43C3C79212350980024891E /* CardIOPaymentViewController.h */; };
+		F43C3C85212350990024891E /* CardIOCreditCardInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F43C3C7A212350980024891E /* CardIOCreditCardInfo.h */; };
+		F43C3C86212350990024891E /* CardIOViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F43C3C7B212350980024891E /* CardIOViewDelegate.h */; };
+		F43C3C87212350990024891E /* CardIOPaymentViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F43C3C7C212350980024891E /* CardIOPaymentViewControllerDelegate.h */; };
+		F43C3C88212350990024891E /* CardIO.m in Sources */ = {isa = PBXBuildFile; fileRef = F43C3C7D212350980024891E /* CardIO.m */; };
+		F43C3C89212350990024891E /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F43C3C7E212350990024891E /* libCardIO.a */; };
+		F43C3C8A212350990024891E /* CardIOView.h in Headers */ = {isa = PBXBuildFile; fileRef = F43C3C7F212350990024891E /* CardIOView.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F4C7A6D221232CED00EE3191 /* CardIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CardIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4C7A6D521232CED00EE3191 /* CardIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
-		F4C7A6D621232CED00EE3191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4C7A6DD21232D2000EE3191 /* CardIODetectionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIODetectionMode.h; sourceTree = "<group>"; };
-		F4C7A6DE21232D2000EE3191 /* CardIOUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOUtilities.h; sourceTree = "<group>"; };
-		F4C7A6DF21232D2000EE3191 /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
-		F4C7A6E021232D2000EE3191 /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
-		F4C7A6E121232D2000EE3191 /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOViewDelegate.h; sourceTree = "<group>"; };
-		F4C7A6E221232D2000EE3191 /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
-		F4C7A6E321232D2100EE3191 /* CardIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardIO.m; sourceTree = "<group>"; };
-		F4C7A6E421232D2100EE3191 /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOView.h; sourceTree = "<group>"; };
-		F4C7A6EE21232E7D00EE3191 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc.a; sourceTree = "<group>"; };
-		F4C7A6EF21232E7D00EE3191 /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO.a; sourceTree = "<group>"; };
-		F4C7A6F021232E7D00EE3191 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core.a; sourceTree = "<group>"; };
+		2E0A3E32924AD3E020D19A3D /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF338134680197146DADB25 /* Pods-CardIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardIO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardIO/Pods-CardIO.debug.xcconfig"; sourceTree = "<group>"; };
+		640DCD72FD90F31D197C3BA4 /* Pods-CardIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardIO.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardIO/Pods-CardIO.release.xcconfig"; sourceTree = "<group>"; };
+		796CFA2F29CAE16233DD4D3D /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B30D83C9325A6ABB5A716B2D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		F4031D5421233D4C0032743B /* CardIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CardIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4031D5721233D4C0032743B /* CardIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
+		F4031D5821233D4C0032743B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4031D6321233DB20032743B /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4031D6521233DB20032743B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4031D6721233DB20032743B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4031D6A21233DB20032743B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4031D6C21233DB30032743B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4031D6F21233DB30032743B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4031D7121233DB30032743B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43C3C75212350980024891E /* CardIODetectionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIODetectionMode.h; sourceTree = "<group>"; };
+		F43C3C76212350980024891E /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc.a; sourceTree = "<group>"; };
+		F43C3C77212350980024891E /* CardIOUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOUtilities.h; sourceTree = "<group>"; };
+		F43C3C78212350980024891E /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core.a; sourceTree = "<group>"; };
+		F43C3C79212350980024891E /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		F43C3C7A212350980024891E /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
+		F43C3C7B212350980024891E /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOViewDelegate.h; sourceTree = "<group>"; };
+		F43C3C7C212350980024891E /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		F43C3C7D212350980024891E /* CardIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardIO.m; sourceTree = "<group>"; };
+		F43C3C7E212350990024891E /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO.a; sourceTree = "<group>"; };
+		F43C3C7F212350990024891E /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOView.h; sourceTree = "<group>"; };
+		FE522DCB866771838125571C /* Pods_CardIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F4C7A6CE21232CED00EE3191 /* Frameworks */ = {
+		F4031D5021233D4C0032743B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4C7A6F121232E7D00EE3191 /* libopencv_imgproc.a in Frameworks */,
-				F4C7A6F221232E7D00EE3191 /* libCardIO.a in Frameworks */,
-				F4C7A6F321232E7D00EE3191 /* libopencv_core.a in Frameworks */,
+				F43C3C81212350990024891E /* libopencv_imgproc.a in Frameworks */,
+				A725EF3A809C884B725AA9F8 /* Pods_CardIO.framework in Frameworks */,
+				F43C3C83212350990024891E /* libopencv_core.a in Frameworks */,
+				F43C3C89212350990024891E /* libCardIO.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4031D6021233DB20032743B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E29E8EA88C7F9661FC8204E /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F4C7A6C821232CED00EE3191 = {
+		CC37287D7D99C192C8EE89D5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F4C7A6D421232CED00EE3191 /* CardIO */,
-				F4C7A6D321232CED00EE3191 /* Products */,
+				5FF338134680197146DADB25 /* Pods-CardIO.debug.xcconfig */,
+				640DCD72FD90F31D197C3BA4 /* Pods-CardIO.release.xcconfig */,
+				796CFA2F29CAE16233DD4D3D /* Pods-Example.debug.xcconfig */,
+				B30D83C9325A6ABB5A716B2D /* Pods-Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D462A45479D775E1CB464CBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE522DCB866771838125571C /* Pods_CardIO.framework */,
+				2E0A3E32924AD3E020D19A3D /* Pods_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4031D4A21233D4C0032743B = {
+			isa = PBXGroup;
+			children = (
+				F4031D5621233D4C0032743B /* CardIO */,
+				F4031D6421233DB20032743B /* Example */,
+				F4031D5521233D4C0032743B /* Products */,
+				CC37287D7D99C192C8EE89D5 /* Pods */,
+				D462A45479D775E1CB464CBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		F4C7A6D321232CED00EE3191 /* Products */ = {
+		F4031D5521233D4C0032743B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4C7A6D221232CED00EE3191 /* CardIO.framework */,
+				F4031D5421233D4C0032743B /* CardIO.framework */,
+				F4031D6321233DB20032743B /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F4C7A6D421232CED00EE3191 /* CardIO */ = {
+		F4031D5621233D4C0032743B /* CardIO */ = {
 			isa = PBXGroup;
 			children = (
-				F4C7A6ED21232D2900EE3191 /* Libraries */,
-				F4C7A6D521232CED00EE3191 /* CardIO.h */,
-				F4C7A6E321232D2100EE3191 /* CardIO.m */,
-				F4C7A6E021232D2000EE3191 /* CardIOCreditCardInfo.h */,
-				F4C7A6DD21232D2000EE3191 /* CardIODetectionMode.h */,
-				F4C7A6DF21232D2000EE3191 /* CardIOPaymentViewController.h */,
-				F4C7A6E221232D2000EE3191 /* CardIOPaymentViewControllerDelegate.h */,
-				F4C7A6DE21232D2000EE3191 /* CardIOUtilities.h */,
-				F4C7A6E421232D2100EE3191 /* CardIOView.h */,
-				F4C7A6E121232D2000EE3191 /* CardIOViewDelegate.h */,
-				F4C7A6D621232CED00EE3191 /* Info.plist */,
+				F4031D5721233D4C0032743B /* CardIO.h */,
+				F43C3C7D212350980024891E /* CardIO.m */,
+				F43C3C7A212350980024891E /* CardIOCreditCardInfo.h */,
+				F43C3C75212350980024891E /* CardIODetectionMode.h */,
+				F43C3C79212350980024891E /* CardIOPaymentViewController.h */,
+				F43C3C7C212350980024891E /* CardIOPaymentViewControllerDelegate.h */,
+				F43C3C77212350980024891E /* CardIOUtilities.h */,
+				F43C3C7F212350990024891E /* CardIOView.h */,
+				F43C3C7B212350980024891E /* CardIOViewDelegate.h */,
+				F43C3C7E212350990024891E /* libCardIO.a */,
+				F43C3C78212350980024891E /* libopencv_core.a */,
+				F43C3C76212350980024891E /* libopencv_imgproc.a */,
+				F4031D5821233D4C0032743B /* Info.plist */,
 			);
 			path = CardIO;
 			sourceTree = "<group>";
 		};
-		F4C7A6ED21232D2900EE3191 /* Libraries */ = {
+		F4031D6421233DB20032743B /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				F4C7A6EF21232E7D00EE3191 /* libCardIO.a */,
-				F4C7A6F021232E7D00EE3191 /* libopencv_core.a */,
-				F4C7A6EE21232E7D00EE3191 /* libopencv_imgproc.a */,
+				F4031D6521233DB20032743B /* AppDelegate.swift */,
+				F4031D6721233DB20032743B /* ViewController.swift */,
+				F4031D6921233DB20032743B /* Main.storyboard */,
+				F4031D6C21233DB30032743B /* Assets.xcassets */,
+				F4031D6E21233DB30032743B /* LaunchScreen.storyboard */,
+				F4031D7121233DB30032743B /* Info.plist */,
 			);
-			path = Libraries;
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F4C7A6CF21232CED00EE3191 /* Headers */ = {
+		F4031D5121233D4C0032743B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4C7A6D721232CED00EE3191 /* CardIO.h in Headers */,
-				F4C7A6E521232D2100EE3191 /* CardIODetectionMode.h in Headers */,
-				F4C7A6E921232D2100EE3191 /* CardIOViewDelegate.h in Headers */,
-				F4C7A6EA21232D2100EE3191 /* CardIOPaymentViewControllerDelegate.h in Headers */,
-				F4C7A6E721232D2100EE3191 /* CardIOPaymentViewController.h in Headers */,
-				F4C7A6E621232D2100EE3191 /* CardIOUtilities.h in Headers */,
-				F4C7A6E821232D2100EE3191 /* CardIOCreditCardInfo.h in Headers */,
-				F4C7A6EC21232D2100EE3191 /* CardIOView.h in Headers */,
+				F4031D5921233D4C0032743B /* CardIO.h in Headers */,
+				F43C3C80212350990024891E /* CardIODetectionMode.h in Headers */,
+				F43C3C86212350990024891E /* CardIOViewDelegate.h in Headers */,
+				F43C3C87212350990024891E /* CardIOPaymentViewControllerDelegate.h in Headers */,
+				F43C3C84212350990024891E /* CardIOPaymentViewController.h in Headers */,
+				F43C3C82212350990024891E /* CardIOUtilities.h in Headers */,
+				F43C3C85212350990024891E /* CardIOCreditCardInfo.h in Headers */,
+				F43C3C8A212350990024891E /* CardIOView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F4C7A6D121232CED00EE3191 /* CardIO */ = {
+		F4031D5321233D4C0032743B /* CardIO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4C7A6DA21232CED00EE3191 /* Build configuration list for PBXNativeTarget "CardIO" */;
+			buildConfigurationList = F4031D5C21233D4C0032743B /* Build configuration list for PBXNativeTarget "CardIO" */;
 			buildPhases = (
-				F4C7A6CD21232CED00EE3191 /* Sources */,
-				F4C7A6CE21232CED00EE3191 /* Frameworks */,
-				F4C7A6CF21232CED00EE3191 /* Headers */,
-				F4C7A6D021232CED00EE3191 /* Resources */,
+				A20898436330E62910480559 /* [CP] Check Pods Manifest.lock */,
+				F4031D4F21233D4C0032743B /* Sources */,
+				F4031D5021233D4C0032743B /* Frameworks */,
+				F4031D5121233D4C0032743B /* Headers */,
+				F4031D5221233D4C0032743B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -132,63 +191,185 @@
 			);
 			name = CardIO;
 			productName = CardIO;
-			productReference = F4C7A6D221232CED00EE3191 /* CardIO.framework */;
+			productReference = F4031D5421233D4C0032743B /* CardIO.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		F4031D6221233DB20032743B /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4031D7221233DB30032743B /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				5F97199FD22BC6F77DB5A725 /* [CP] Check Pods Manifest.lock */,
+				F4031D5F21233DB20032743B /* Sources */,
+				F4031D6021233DB20032743B /* Frameworks */,
+				F4031D6121233DB20032743B /* Resources */,
+				80CABF222F0D277F5737A147 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = F4031D6321233DB20032743B /* Example.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F4C7A6C921232CED00EE3191 /* Project object */ = {
+		F4031D4B21233D4C0032743B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = RetailMeNot;
 				TargetAttributes = {
-					F4C7A6D121232CED00EE3191 = {
+					F4031D5321233D4C0032743B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F4031D6221233DB20032743B = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = F4C7A6CC21232CED00EE3191 /* Build configuration list for PBXProject "CardIO" */;
+			buildConfigurationList = F4031D4E21233D4C0032743B /* Build configuration list for PBXProject "CardIO" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = F4C7A6C821232CED00EE3191;
-			productRefGroup = F4C7A6D321232CED00EE3191 /* Products */;
+			mainGroup = F4031D4A21233D4C0032743B;
+			productRefGroup = F4031D5521233D4C0032743B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4C7A6D121232CED00EE3191 /* CardIO */,
+				F4031D5321233D4C0032743B /* CardIO */,
+				F4031D6221233DB20032743B /* Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F4C7A6D021232CED00EE3191 /* Resources */ = {
+		F4031D5221233D4C0032743B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4031D6121233DB20032743B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4031D7021233DB30032743B /* LaunchScreen.storyboard in Resources */,
+				F4031D6D21233DB30032743B /* Assets.xcassets in Resources */,
+				F4031D6B21233DB20032743B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F97199FD22BC6F77DB5A725 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80CABF222F0D277F5737A147 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CardIO/CardIO.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CardIO.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A20898436330E62910480559 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CardIO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		F4C7A6CD21232CED00EE3191 /* Sources */ = {
+		F4031D4F21233D4C0032743B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4C7A6EB21232D2100EE3191 /* CardIO.m in Sources */,
+				F43C3C88212350990024891E /* CardIO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4031D5F21233DB20032743B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4031D6821233DB20032743B /* ViewController.swift in Sources */,
+				F4031D6621233DB20032743B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		F4031D6921233DB20032743B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4031D6A21233DB20032743B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4031D6E21233DB30032743B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4031D6F21233DB30032743B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		F4C7A6D821232CED00EE3191 /* Debug */ = {
+		F4031D5A21233D4C0032743B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,7 +432,7 @@
 			};
 			name = Debug;
 		};
-		F4C7A6D921232CED00EE3191 /* Release */ = {
+		F4031D5B21233D4C0032743B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,8 +489,9 @@
 			};
 			name = Release;
 		};
-		F4C7A6DB21232CED00EE3191 /* Debug */ = {
+		F4031D5D21233D4C0032743B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FF338134680197146DADB25 /* Pods-CardIO.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -320,6 +502,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CardIO/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,7 +510,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/CardIO/Libraries",
+					"$(PROJECT_DIR)/CardIO",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.retailmetnot.CardIO;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -337,8 +520,9 @@
 			};
 			name = Debug;
 		};
-		F4C7A6DC21232CED00EE3191 /* Release */ = {
+		F4031D5E21233D4C0032743B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640DCD72FD90F31D197C3BA4 /* Pods-CardIO.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -349,6 +533,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CardIO/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,7 +541,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/CardIO/Libraries",
+					"$(PROJECT_DIR)/CardIO",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.retailmetnot.CardIO;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -366,28 +551,75 @@
 			};
 			name = Release;
 		};
+		F4031D7321233DB30032743B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796CFA2F29CAE16233DD4D3D /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2A3V6QEBT9;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.retailmetnot.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4031D7421233DB30032743B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30D83C9325A6ABB5A716B2D /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2A3V6QEBT9;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.retailmetnot.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4C7A6CC21232CED00EE3191 /* Build configuration list for PBXProject "CardIO" */ = {
+		F4031D4E21233D4C0032743B /* Build configuration list for PBXProject "CardIO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4C7A6D821232CED00EE3191 /* Debug */,
-				F4C7A6D921232CED00EE3191 /* Release */,
+				F4031D5A21233D4C0032743B /* Debug */,
+				F4031D5B21233D4C0032743B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4C7A6DA21232CED00EE3191 /* Build configuration list for PBXNativeTarget "CardIO" */ = {
+		F4031D5C21233D4C0032743B /* Build configuration list for PBXNativeTarget "CardIO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4C7A6DB21232CED00EE3191 /* Debug */,
-				F4C7A6DC21232CED00EE3191 /* Release */,
+				F4031D5D21233D4C0032743B /* Debug */,
+				F4031D5E21233D4C0032743B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4031D7221233DB30032743B /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4031D7321233DB30032743B /* Debug */,
+				F4031D7421233DB30032743B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F4C7A6C921232CED00EE3191 /* Project object */;
+	rootObject = F4031D4B21233D4C0032743B /* Project object */;
 }
